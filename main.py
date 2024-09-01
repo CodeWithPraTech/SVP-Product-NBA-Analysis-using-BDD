@@ -133,7 +133,7 @@ def main():
     """
 
     # Print or write the LaTeX code to a file
-    print(latex_code)
+    #print(latex_code)
 
     with open('document.tex', 'w') as file:
         file.write(latex_code)
